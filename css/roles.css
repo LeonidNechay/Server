@@ -126,53 +126,70 @@ main ul li{
     }
     .plebey{
         width: 42px;
+        padding: 2px 0px 2px 2px;
     }
     .gremlin{
         width: 58px;
+        padding: 2px 0px 2px 2px;
     }
     .kiska{
         width: 43px;
+        padding: 2px 0px 2px 2px;
     }
     .turbo-gnom{
         width: 69px;
+        padding: 2px 0px 2px 2px;
     }
     .neadekvat{
         width: 54px;
+        padding: 2px 0px 2px 2px;
     }
     .sgc{
         width: 39px;
+        padding: 2px 0px 2px 2px;
     }
     .clan163{
         width: 25px;
+        padding: 2px 0px 2px 2px;
     }
     .balabol{
         width: 57px;
+        padding: 2px 0px 2px 2px;
     }
     .batya-chata{
-        width: 58px;
+        width: 57px;
+        padding: 2px 0px 2px 2px;
     }
     .postoyalec{
-        width: 66px;
+        width: 67px;
+        padding: 2px 0px 2px 2px;
     }
     .batya-voisa{
-        width: 63px;
+        width: 65px;
+        padding: 2px 0px 2px 2px;
     }
     .sponsor{
         width: 58px;
+        padding: 2px 0px 2px 2px;
     }
     .server-booster{
-        width: 70px;
+        width: 69px;
+        padding: 2px 0px 2px 2px;
     }
     .moder{
         width: 65px;
+        padding: 2px 0px 2px 2px;
     }
     .redactor{
         width: 61px;
+        padding: 2px 0px 2px 2px;
     }
     .admin{
         width: 80px;
+        padding: 2px 0px 2px 2px;
     }
     .owner{
         width: 98px;
+        padding: 2px 0px 2px 2px;
     }
 }
