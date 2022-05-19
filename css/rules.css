@@ -1,0 +1,36 @@
+ul.navigation{
+    list-style: circle;
+}
+ul.rules li{
+    margin-bottom: 4px;
+}
+.dop-rules{
+    list-style: square;
+}
+.dop-rules li{
+    margin-bottom: 6px;
+}
+.rules-flex{
+    display: flex;
+    margin-top: 5px;
+}
+.rules-flex-text{
+    margin-top: 2px;
+}
+.chat{
+    font-size: 16px;
+    width: 111px;
+}
+.global-chat{
+    color:rgb(222,224,252);
+    background-color: rgba(117,183,243, 0.2);
+    padding: 0px 0px 1px 2px;
+    margin-top: 1px;
+    border-radius: 3px;
+}
+@media screen and (min-width: 280px) and (max-width: 415px){
+    .chat{
+        font-size: 9px;
+        width: 63px;
+    }
+}

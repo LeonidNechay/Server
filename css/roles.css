@@ -1,0 +1,178 @@
+main ul li{
+    display: flex;
+}
+.role-text{
+    margin-top: 6px;
+}
+.roles-competition{
+    margin-top: 3px;
+}
+.more-about-clans{
+    margin-top: 3px;
+}
+.role{
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.plebey{
+    color:rgb(93,119,133);
+    background-color: rgba(93,119,133, 0.2);
+    width: 69px;
+    padding: 2.3px 0px 2.6px 2px;
+}
+.gremlin{
+    color:rgb(81,148,184);
+    background-color: rgba(81,148,184, 0.2);
+    width: 100px;
+    padding: 0px 0px 1px 2px;
+}
+.kiska{
+    color:rgb(182,104,152);
+    background-color: rgba(182,104,152, 0.2);
+    width: 76px;
+    padding: 0px 0px 1px 2px;
+}
+.turbo-gnom{
+    color:rgb(49,166,88);
+    background-color: rgba(49,166,88, 0.2);
+    width: 121px;
+    padding: 0px 0px 1px 2px;
+}
+.neadekvat{
+    color:black;
+    background-color: rgba(0, 0,0, 0.2);
+    width: 90px;
+    padding: 2.3px 0px 2.6px 2px;
+}
+.sgc{
+    color:rgb(206,99,144);
+    background-color: rgba(206,99,144, 0.2);
+    width: 68px;
+    padding: 2.3px 0px 2.6px 2px;
+}
+.clan163{
+    color:rgb(197,153,111);
+    background-color: rgba(197,153,111, 0.2);
+    width: 40px;
+    padding: 2.3px 0px 2.6px 2px;
+}
+.balabol{
+    color:rgb(205,72,59);
+    background-color: rgba(205,72,59, 0.2);
+    width: 99px;
+    padding: 0px 0px 1px 2px;
+}
+.batya-chata{
+    color:rgb(108,54,131);
+    background-color: rgba(108,54,131, 0.2);
+    width: 97px;
+    padding: 2.3px 0px 2.6px 2px;
+}
+.postoyalec{
+    color:rgb(46,203,112);
+    background-color: rgba(46,203,112, 0.2);
+    width: 112px;
+    padding: 0px 0px 1px 2px;
+}
+.batya-voisa{
+    color:rgb(164,22,84);
+    background-color: rgba(164,22,84, 0.2);
+    width: 108px;
+    padding: 2.3px 0px 2.6px 2px;
+}
+.sponsor{
+    color:rgb(0,227,255);
+    background-color: rgba(0,227,255, 0.2);
+    width: 98px;
+    padding: 0px 0px 1px 2px;
+}
+.server-booster{
+    color:rgb(235,123,246);
+    background-color: rgba(235,123,246, 0.2);
+    width: 120px;
+    padding: 2.3px 0px 2.6px 2px;
+}
+.moder{
+    color:rgb(249,229,1);
+    background-color: rgba(249,229,1, 0.2);
+    width: 115px;
+    padding: 0px 0px 1px 2px;
+}
+.redactor{
+    color:rgb(26,188,156);
+    background-color: rgba(26,188,156, 0.2);
+    width: 106px;
+    padding: 0px 0px 1px 2px;
+}
+.admin{
+    color:rgb(233,30,99);
+    background-color: rgba(233,30,99, 0.2);
+    width: 139px;
+    padding: 0px 0px 1px 2px;
+}
+.owner{
+    color:rgb(232,0,255);
+    background-color: rgba(232,0,255, 0.2);
+    width: 174px;
+    padding: 0px 0px 1px 2px;
+}
+
+/* mobile version */
+
+@media screen and (min-width: 280px) and (max-width: 415px){
+    .role{
+        font-size: 9px;
+    }
+    .plebey{
+        width: 38px;
+    }
+    .gremlin{
+        width: 56px;
+    }
+    .kiska{
+        width: 43px;
+    }
+    .turbo-gnom{
+        width: 69px;
+    }
+    .neadekvat{
+        width: 51px;
+    }
+    .sgc{
+        width: 38px;
+    }
+    .clan163{
+        width: 23px;
+    }
+    .balabol{
+        width: 55px;
+    }
+    .batya-chata{
+        width: 55px;
+    }
+    .postoyalec{
+        width: 63px;
+    }
+    .batya-voisa{
+        width: 61px;
+    }
+    .sponsor{
+        width: 55px;
+    }
+    .server-booster{
+        width: 67px;
+    }
+    .moder{
+        width: 65px;
+    }
+    .redactor{
+        width: 60px;
+    }
+    .admin{
+        width: 80px;
+    }
+    .owner{
+        width: 98px;
+    }
+}
