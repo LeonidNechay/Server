@@ -21,13 +21,20 @@ header{
     z-index: 10;
 }
 .server_logo{
-    height: 50px;
+    height: 55px;
+    width: 55px;
     flex: 0 0 50px;
-    padding: 15px;
+    padding: 10px;
 }
 .server_logo img{
-    height: 50px;
-    width: 50px;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    transition-duration: 400ms;
+}
+.server_logo img:hover{
+    border-radius: 19px;
 }
 .menu{
     flex: 1 1 auto;
@@ -88,6 +95,7 @@ header{
 .menu_link{
     margin: 15px 0px;
 }
+
 @keyframes text-and-border-shadow {
     from{
         text-shadow: rgba(237, 237, 237, 0.7) 0px 0px 0px;
@@ -184,6 +192,35 @@ main{
     box-shadow: rgb(41,43,47) 0px 0px 10px;
     z-index: 9;
 }
+.article{
+    background-color: rgb(47,49,54);
+    border-radius: 5px;
+    border-left: 3px solid rgb(192,77,254);
+    padding: 1px 0px 1px 7px;
+    margin-top: 15px;
+}
+.footer{
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid rgb(54,55,60);
+    justify-content: space-around;
+}
+.footer-1{
+    margin-top: 5px;
+    flex: 0 0 65%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-button{
+    width: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 12px 20px;
+    background-color: rgb(54,57,63);
+    border-radius: 12px;
+    text-align: center;
+}
+
 
 
 /* mobile version */
@@ -202,7 +239,7 @@ main{
         grid-area: header;
     }
     .server_logo{
-        padding: 10px;
+        padding: 5px;
     }
     main{
         margin-left: 0%;
@@ -213,5 +250,25 @@ main{
     .menu_text{
         top: 10px;
         right: -80%;
+    }
+    .footer{
+        display: flex;
+        margin-top: 10px;
+        border-top: 1px solid rgb(54,55,60);
+        justify-content: space-around;
+    }
+    .footer-button{
+        width: auto;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding: 6px 8px;
+        background-color: rgb(54,57,63);
+        border-radius: 9px;
+        text-align: center;
+    }
+    .article{
+        border-radius: 4px;
+        padding: 1px 0px 1px 4px;
+        margin-top: 10px;
     }
 }

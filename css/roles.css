@@ -1,8 +1,14 @@
 main ul li{
     display: flex;
 }
+.roles-gif{
+    padding: 10px 0px 10px 7px;
+}
+.roles-gif img{
+    border-radius: 5px;
+}
 .role-text{
-    margin-top: 6px;
+    margin-top: 16px;
 }
 .roles-competition{
     margin-top: 3px;
@@ -11,185 +17,134 @@ main ul li{
     margin-top: 3px;
 }
 .role{
-    margin-top: 5px;
+    margin-top: 15px;
     border-radius: 3px;
     font-size: 16px;
+    width: auto;
+    padding: 1px 3px 3px 2px;
 }
 .plebey{
     color:rgb(93,119,133);
     background-color: rgba(93,119,133, 0.2);
-    width: 69px;
-    padding: 2.3px 0px 2.6px 2px;
+    /* width: 69px;*/
 }
 .gremlin{
-    color:rgb(81,148,184);
-    background-color: rgba(81,148,184, 0.2);
-    width: 100px;
-    padding: 0px 0px 1px 2px;
+    color:#5398be;
+    background-color: rgba(83,152,190, 0.2);
+    /* width: 100px;*/
 }
 .kiska{
-    color:rgb(182,104,152);
-    background-color: rgba(182,104,152, 0.2);
-    width: 76px;
-    padding: 0px 0px 1px 2px;
+    color:#d47daf;
+    background-color: rgba(212,125,175, 0.2);
+    /* width: 76px;*/
 }
 .turbo-gnom{
     color:rgb(49,166,88);
     background-color: rgba(49,166,88, 0.2);
-    width: 121px;
-    padding: 0px 0px 1px 2px;
+    /* width: 121px;*/
+}
+.streamer{
+    color: rgb(113,54,138);
+    background-color: rgba(113,54,138, 0.2);
+    /* width: 90px;*/
 }
 .neadekvat{
     color:black;
     background-color: rgba(0, 0,0, 0.2);
-    width: 90px;
-    padding: 2.3px 0px 2.6px 2px;
+    /* width: 90px;*/
 }
 .sgc{
     color:rgb(206,99,144);
     background-color: rgba(206,99,144, 0.2);
-    width: 68px;
-    padding: 2.3px 0px 2.6px 2px;
+    /* width: 68px;*/
 }
 .clan163{
     color:rgb(197,153,111);
     background-color: rgba(197,153,111, 0.2);
-    width: 40px;
-    padding: 2.3px 0px 2.6px 2px;
+    /* width: 40px;*/
 }
 .balabol{
     color:rgb(205,72,59);
     background-color: rgba(205,72,59, 0.2);
-    width: 99px;
-    padding: 0px 0px 1px 2px;
+    /* width: 99px;*/
 }
 .batya-chata{
     color:rgb(108,54,131);
     background-color: rgba(108,54,131, 0.2);
-    width: 97px;
-    padding: 2.3px 0px 2.6px 2px;
+    /* width: 97px;*/
 }
 .postoyalec{
     color:rgb(46,203,112);
     background-color: rgba(46,203,112, 0.2);
-    width: 112px;
-    padding: 0px 0px 1px 2px;
+    /* width: 112px;*/
 }
 .batya-voisa{
     color:rgb(164,22,84);
     background-color: rgba(164,22,84, 0.2);
-    width: 108px;
-    padding: 2.3px 0px 2.6px 2px;
+    /* width: 108px;*/
+}
+.partner{
+    color:rgb(153,45,34);
+    background-color: rgba(153,45,34, 0.2);
+    /* width: 120px;*/
 }
 .sponsor{
-    color:rgb(0,227,255);
-    background-color: rgba(0,227,255, 0.2);
-    width: 98px;
-    padding: 0px 0px 1px 2px;
+    color:rgb(118,26,214);
+    background-color: rgba(118,26,214, 0.2);
+    /* width: 98px;*/
 }
-.server-booster{
-    color:rgb(235,123,246);
-    background-color: rgba(235,123,246, 0.2);
-    width: 120px;
-    padding: 2.3px 0px 2.6px 2px;
+
+.redactor{
+    color:rgb(123,0,179);
+    background-color: rgba(123,0,179, 0.2);
+    /* width: 106px;*/
+}
+.pro-redactor{
+    color:#982dc2;
+    background-color: rgba(152,45,194, 0.2);
+    /* width: 106px;*/
 }
 .moder{
-    color:rgb(249,229,1);
-    background-color: rgba(249,229,1, 0.2);
-    width: 115px;
-    padding: 0px 0px 1px 2px;
-}
-.redactor{
-    color:rgb(26,188,156);
-    background-color: rgba(26,188,156, 0.2);
-    width: 106px;
-    padding: 0px 0px 1px 2px;
+    color:rgb(202,31,255);
+    background-color: rgba(202,31,255, 0.2);
+    /* width: 115px;*/
 }
 .admin{
-    color:rgb(233,30,99);
-    background-color: rgba(233,30,99, 0.2);
-    width: 139px;
-    padding: 0px 0px 1px 2px;
+    color:rgb(188,142,230);
+    background-color: rgba(188,142,230, 0.2);
+    /* width: 139px;*/
 }
 .owner{
-    color:rgb(232,0,255);
-    background-color: rgba(232,0,255, 0.2);
-    width: 174px;
-    padding: 0px 0px 1px 2px;
+    color:rgb(217,163,255);
+    background-color: rgba(217,163,255, 0.2);
+    /* width: 139px;*/
 }
 
 /* mobile version */
 
 @media screen and (min-width: 280px) and (max-width: 415px){
+    .roles-article{
+        background-color: rgb(47,49,54);
+        border-radius: 3px;
+        border-left: 2px solid rgb(192,77,254);
+        padding: 1px 0px 1px 3px;
+        margin-top: 10px;
+    }
+    .role-text{
+        margin-top: 7.5px;
+    }
     .role{
+        margin-top: 6px;
         font-size: 9px;
+        width:auto;
+        padding: 1px 2px 2px 1px;
+        border-radius: 2px;
     }
-    .plebey{
-        width: 42px;
-        padding: 2px 0px 2px 2px;
+    .roles-gif{
+        padding: 7px 0px 7px 4px;
     }
-    .gremlin{
-        width: 58px;
-        padding: 2px 0px 2px 2px;
-    }
-    .kiska{
-        width: 43px;
-        padding: 2px 0px 2px 2px;
-    }
-    .turbo-gnom{
-        width: 69px;
-        padding: 2px 0px 2px 2px;
-    }
-    .neadekvat{
-        width: 54px;
-        padding: 2px 0px 2px 2px;
-    }
-    .sgc{
-        width: 39px;
-        padding: 2px 0px 2px 2px;
-    }
-    .clan163{
-        width: 25px;
-        padding: 2px 0px 2px 2px;
-    }
-    .balabol{
-        width: 57px;
-        padding: 2px 0px 2px 2px;
-    }
-    .batya-chata{
-        width: 57px;
-        padding: 2px 0px 2px 2px;
-    }
-    .postoyalec{
-        width: 67px;
-        padding: 2px 0px 2px 2px;
-    }
-    .batya-voisa{
-        width: 65px;
-        padding: 2px 0px 2px 2px;
-    }
-    .sponsor{
-        width: 58px;
-        padding: 2px 0px 2px 2px;
-    }
-    .server-booster{
-        width: 69px;
-        padding: 2px 0px 2px 2px;
-    }
-    .moder{
-        width: 65px;
-        padding: 2px 0px 2px 2px;
-    }
-    .redactor{
-        width: 61px;
-        padding: 2px 0px 2px 2px;
-    }
-    .admin{
-        width: 80px;
-        padding: 2px 0px 2px 2px;
-    }
-    .owner{
-        width: 98px;
-        padding: 2px 0px 2px 2px;
+    .roles-gif img{
+        border-radius: 3px;
+        width: 90%;
     }
 }
